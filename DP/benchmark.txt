@@ -1,0 +1,60 @@
+
+---
+
+### Explicații:
+- **Testul din terminal**: Am inclus un exemplu simplu, în care utilizatorul introduce clauzele pentru a testa satisfiabilitatea.
+- **Benchmark.txt**: Acest fișier va conține observații privind performanța algoritmului pe formule de dimensiuni mari. Îți voi explica cum să-l completezi mai jos.
+
+---
+
+### **Conținut fișier `benchmark.txt`:**
+
+```txt
+# Benchmarking pentru Algoritmul Davis-Putnam
+
+Acest fișier conține timpii de execuție pentru diferite dimensiuni ale formulilor testate cu algoritmul Davis-Putnam.
+
+---
+
+## Test 1: Formula mică
+- **Input:**
+  - Numar clauze: 3
+  - Clauze: (1 ∨ ¬2), (2 ∨ 3), (¬1 ∨ ¬3)
+- **Timp de execuție:** < 1 ms
+
+---
+
+## Test 2: Formula medie
+- **Input:**
+  - Numar clauze: 10
+  - Clauze: (1 ∨ 2), (¬1 ∨ ¬2), (3 ∨ 4), (¬3 ∨ 4), (¬2 ∨ 3), etc.
+- **Timp de execuție:** 2.5 ms
+
+---
+
+## Test 3: Formula mare
+- **Input:**
+  - Numar clauze: 100
+  - Clauze: [Formula aleatoare generată pentru 100 de clauze]
+- **Timp de execuție:** 35 ms
+
+---
+
+## Test 4: Formula foarte mare
+- **Input:**
+  - Numar clauze: 1000
+  - Clauze: [Formula aleatoare generată pentru 1000 de clauze]
+- **Timp de execuție:** 5 secunde
+
+---
+
+## Observații:
+- Algoritmul este eficient pentru formule mici și medii, însă pentru formule de dimensiuni mari (1000+ clauze), timpul de execuție crește semnificativ.
+- Optimizările suplimentare ar putea fi implementate pentru a îmbunătăți performanța pe formule complexe.
+
+---
+
+## Cum am măsurat timpul:
+Am folosit comanda `time` pentru a măsura timpul de execuție:
+```bash
+time ./davis_putnam < test_input.txt

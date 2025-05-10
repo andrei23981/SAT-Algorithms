@@ -1,0 +1,5 @@
+Numar clauze: 
+Numar literali in clauza #1: 
+Introdu literalii: 
+
+Formula este SATISFIABILĂ.

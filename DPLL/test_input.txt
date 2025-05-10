@@ -1,0 +1,5 @@
+Numar variabile: 3
+Numar clauze: 3
+Clauza 1 (literal(i) separati de spatiu, terminati cu 0): 1 -2 0
+Clauza 2 (literal(i) separati de spatiu, terminati cu 0): -1 2 0
+Clauza 3 (literal(i) separati de spatiu, terminati cu 0): 2 3 0

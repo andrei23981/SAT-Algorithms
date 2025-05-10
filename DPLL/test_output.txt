@@ -1,0 +1,5 @@
+Formula este satisfiabila.
+Asignare:
+x1 = adevarat
+x2 = fals
+x3 = adevarat

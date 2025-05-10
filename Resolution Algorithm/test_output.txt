@@ -1,0 +1,6 @@
+Introdu numarul de clauze: 
+Clauza #1: Introdu numarul de literali: Introdu literalii (ex: 1 -2 3): 
+Clauza #2: Introdu numarul de literali: Introdu literalii (ex: 1 -2 3): 
+Clauza #3: Introdu numarul de literali: Introdu literalii (ex: 1 -2 3): 
+
+Formula este NESATISFIABILĂ (s-a generat clauza vidă).
